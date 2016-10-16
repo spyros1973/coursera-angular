@@ -15,7 +15,7 @@
                 $scope.message = "Please enter data first";
                 $scope.messageBorderColor = "red";
                 $scope.messageFontColor = "red";
-            } else if ($scope.message.split(",").length > 3) {
+            } else if ($scope.dishes.split(",").length > 3) {
                 $scope.message = "Too much!";
                 $scope.messageBorderColor = "green";
                 $scope.messageFontColor = "green";
